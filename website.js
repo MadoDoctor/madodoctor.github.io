@@ -13,3 +13,5 @@ const social = {
   siteBanner: `${meta.siteUrl}/images/social-banner.png`,
   twitter: '@DoctorisMad',
 };
+
+module.exports = website;
