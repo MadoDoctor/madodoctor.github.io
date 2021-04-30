@@ -407,7 +407,7 @@
 							                    <div class="col-md-12 col-xs-12">
 							                        <!-- START contect -->
 							                        <div class="contact-form">
-							                            <form id="contact-form">
+							                            <form id="contact-form" action='mail.php' method="POST">
 							                                <div class="row">
 
 																<!-- Hidden Required Fields -->
@@ -429,9 +429,9 @@
 							                                    <div class="form-group col-md-12">
 							                                        <textarea rows="6" name="message" class="form-control" id="description" placeholder="Your Message" required="required"></textarea>
 							                                    </div>
-							                                    <div class="form-group col-md-12 text-center">
-							                                        <div class="actions">
-							                                            <button type="submit" class="btn btn-custom" title="Submit Your Message!">Submit</button>
+
+																<div class="form-group col-md-12 text-center"></div>
+							                                    	<input type='submit' class="btn btn-custom"  value='SEND'>
 							                                        </div>
 							                                    </div>
 							                                </div>
@@ -468,7 +468,7 @@
 		       
 		
     	<!-- jQuery -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script src="js/jquery.min.js"></script>
     
     	<!-- Bootstrap Core JavaScript -->
 		<script src="js/bootstrap.min.js"></script>
